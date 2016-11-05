@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: visualizadoriotPMB
+  host: visualizadoriotPMB
+  disk_quota: 1024M
+  services:
+  - ejemplo1-iotf-service
